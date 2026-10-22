@@ -1,0 +1,43 @@
+{
+  "inputSource": "Windows SendInput through Computer Use; identical window-relative click coordinates (878,291) in the same Tauri window",
+  "before": {
+    "mode": "before",
+    "pointer": {
+      "x": 1012,
+      "y": 260,
+      "trusted": true
+    },
+    "expected": "9/28",
+    "actual": "10/2",
+    "index": 9,
+    "viewport": {
+      "width": 2400,
+      "height": 650,
+      "devicePixelRatio": 1.5
+    },
+    "tauri": true
+  },
+  "after": {
+    "mode": "after",
+    "pointer": {
+      "x": 1012,
+      "y": 260,
+      "trusted": true
+    },
+    "expected": "9/28",
+    "actual": "9/28",
+    "index": 9,
+    "viewport": {
+      "width": 2400,
+      "height": 650,
+      "devicePixelRatio": 1.5
+    },
+    "tauri": true
+  },
+  "assertions": {
+    "samePointerCoordinates": true,
+    "sameViewport": true,
+    "beforeReproducesMismatch": true,
+    "afterMatchesPointer": true
+  }
+}

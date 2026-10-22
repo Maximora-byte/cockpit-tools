@@ -1,0 +1,31 @@
+{
+  "baseline": "76fbea02ba8ab5a071205a0bfa59ef4db5cc64b4",
+  "fix": "7f3502761e38ffcaaee5a46b633945de9dd17420",
+  "appVersion": "1.3.73",
+  "tauri": "2.10.3",
+  "tauriRuntimeWry": "2.10.1",
+  "webview2": "155.0.4283.62",
+  "windowsBuild": "10.0.26200",
+  "windowsDisplayScalePercent": 150,
+  "rust": "1.99.1",
+  "msvcBuildTools": "17.14.42",
+  "windowsSdk": "10.0.26100.0",
+  "host": "Source-built Cockpit Tools Tauri development app; main native WebView2 loads actual baseline/fixed CodexUsageTrend components from Vite with synthetic data",
+  "nativeZoomPath": "applyWebviewUiScale -> getCurrentWebview().setZoom -> Tauri/Wry/WebView2",
+  "dataIsolation": "Dedicated development app identifier, app data folder, CODEX_HOME and WebView2 user-data folder; no real accounts or usage data",
+  "sidecar": {
+    "source": "Existing installed Cockpit Tools 1.3.73 binary; Go module download failed; sidecar compilation skipped; graph acceptance does not call account or API service",
+    "sha256": "F4B98D3B19BB4D631691FD1123BC76F7CC4DDB758AB3E5B880123C3D9C92C518"
+  },
+  "provenance": {
+    "baselineComponentMatchesUpstream": true,
+    "fixedComponentMatchesPrHead": true,
+    "productionChartCssUnchanged": true,
+    "windowScreenshotMethod": "Windows.Graphics.Capture through Computer Use",
+    "chartScreenshotMethod": "WebView2 CDP capture; comparison image lays out the two original screenshots without redrawing the chart"
+  },
+  "limits": [
+    "Development application/component acceptance; installer and full account/API workflows were not exercised",
+    "One Windows 11 machine and one WebView2 runtime version"
+  ]
+}

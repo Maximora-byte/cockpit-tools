@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "name": "native-comparison.png",
+      "bytes": 536077,
+      "sha256": "4dbf146a28e5c199895ade5150d446e63694b13a4bc7689d96c74cbeeab61a2f"
+    },
+    {
+      "name": "native-before.png",
+      "bytes": 266343,
+      "sha256": "4bbe8f61fdecb107e2c8e30b8d0e03aff8feed37324b8a8003b56e1821621563"
+    },
+    {
+      "name": "native-after.png",
+      "bytes": 264635,
+      "sha256": "e0525f57a16289d488594d121b85d534c92df843d08cde3e04e32da884da1eb8"
+    },
+    {
+      "name": "native-after-125.png",
+      "bytes": 226736,
+      "sha256": "03a39f4371a1309583795c0d57a5bab6e7bc951a0a6ba2999b17f2064d7870c9"
+    },
+    {
+      "name": "native-window.png",
+      "bytes": 76430,
+      "sha256": "4c2b4f5c98b1d2ffd5446755c8357bde48c1971abfea7a80f497eb53df7e311c"
+    },
+    {
+      "name": "native-webview2-results.json",
+      "bytes": 29024,
+      "sha256": "468467adc3046984345e7e234abd15e4c9bd392018950feaa2c1ce098de1ed18"
+    },
+    {
+      "name": "native-windows-input-results.json",
+      "bytes": 888,
+      "sha256": "d182395e444fcf6f4c7e7360195b520f17e673dc1190c5f01c4a47c2530249bb"
+    },
+    {
+      "name": "native-environment.json",
+      "bytes": 1626,
+      "sha256": "7164aa47c861ec5995baa9220cba4e7d8b2850e4197c809976f0b033aff58084"
+    }
+  ]
+}

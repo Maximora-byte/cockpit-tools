@@ -1,0 +1,1172 @@
+{
+  "baseline": "76fbea02ba8ab5a071205a0bfa59ef4db5cc64b4",
+  "fix": "7f3502761e38ffcaaee5a46b633945de9dd17420",
+  "host": "Cockpit Tools source-built Tauri development application",
+  "input": "WebView2 CDP mouse input; native zoom through applyWebviewUiScale -> Tauri setZoom",
+  "data": "34 synthetic daily buckets; actual CodexUsageTrend component",
+  "results": [
+    {
+      "mode": "before",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 2400,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/28",
+      "targetX": 769.1469116210938,
+      "inputClientX": 769,
+      "tooltipCenterX": 764.5521240234375,
+      "tooltipErrorCssPx": 4.59478759765625,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 2400,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "9/30",
+      "targetX": 878.54638671875,
+      "inputClientX": 878,
+      "tooltipCenterX": 893.5104370117188,
+      "tooltipErrorCssPx": 14.96405029296875,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 2400,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "10/3",
+      "targetX": 1069.995361328125,
+      "inputClientX": 1069,
+      "tooltipCenterX": 1086.9375,
+      "tooltipErrorCssPx": 16.942138671875,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 2400,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/7",
+      "targetX": 1343.4940185546875,
+      "inputClientX": 1343,
+      "tooltipCenterX": 1344.854248046875,
+      "tooltipErrorCssPx": 1.3602294921875,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 2400,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/12",
+      "targetX": 1671.6923828125,
+      "inputClientX": 1671,
+      "tooltipCenterX": 1667.229248046875,
+      "tooltipErrorCssPx": 4.463134765625,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1200,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 1200,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/21",
+      "targetX": 169.14683532714844,
+      "inputClientX": 169,
+      "tooltipCenterX": 264.4791717529297,
+      "tooltipErrorCssPx": 95.33233642578125,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1200,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 1200,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "9/24",
+      "targetX": 278.5462951660156,
+      "inputClientX": 278,
+      "tooltipCenterX": 266.7291717529297,
+      "tooltipErrorCssPx": 11.817123413085938,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1200,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 1200,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "10/1",
+      "targetX": 469.9953308105469,
+      "inputClientX": 469,
+      "tooltipCenterX": 483.66668701171875,
+      "tooltipErrorCssPx": 13.671356201171875,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1200,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 1200,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/9",
+      "targetX": 743.4939575195312,
+      "inputClientX": 743,
+      "tooltipCenterX": 731.6041870117188,
+      "tooltipErrorCssPx": 11.8897705078125,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1200,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 1200,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/20",
+      "targetX": 1071.6922607421875,
+      "inputClientX": 1071,
+      "tooltipCenterX": 1002.6146240234375,
+      "tooltipErrorCssPx": 52.71879196166992,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 900,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 900,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/19",
+      "targetX": 93.64444732666016,
+      "inputClientX": 93,
+      "tooltipCenterX": 205.1041717529297,
+      "tooltipErrorCssPx": 60.437503814697266,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 900,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 900,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "9/23",
+      "targetX": 184.12796020507812,
+      "inputClientX": 184,
+      "tooltipCenterX": 205.1041717529297,
+      "tooltipErrorCssPx": 20.976211547851562,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 900,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 900,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "9/30",
+      "targetX": 342.4740905761719,
+      "inputClientX": 342,
+      "tooltipCenterX": 342.46875,
+      "tooltipErrorCssPx": 0.005340576171875,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 900,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 900,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/10",
+      "targetX": 568.682861328125,
+      "inputClientX": 568,
+      "tooltipCenterX": 568.6770935058594,
+      "tooltipErrorCssPx": 0.005767822265625,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 900,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 900,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/22",
+      "targetX": 840.1333618164062,
+      "inputClientX": 840,
+      "tooltipCenterX": 743.8646240234375,
+      "tooltipErrorCssPx": 11.468730926513672,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 0.7,
+      "viewport": {
+        "width": 3429,
+        "height": 929,
+        "devicePixelRatio": 1.0499999523162842
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/30",
+      "targetX": 1283.4415283203125,
+      "inputClientX": 1283,
+      "tooltipCenterX": 1271.4435195922852,
+      "tooltipErrorCssPx": 11.998008728027344,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 0.7,
+      "viewport": {
+        "width": 3429,
+        "height": 929,
+        "devicePixelRatio": 1.0499999523162842
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "10/1",
+      "targetX": 1392.8387451171875,
+      "inputClientX": 1392,
+      "tooltipCenterX": 1364.5983047485352,
+      "tooltipErrorCssPx": 28.240440368652344,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 0.7,
+      "viewport": {
+        "width": 3429,
+        "height": 929,
+        "devicePixelRatio": 1.0499999523162842
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "10/3",
+      "targetX": 1584.2838134765625,
+      "inputClientX": 1584,
+      "tooltipCenterX": 1550.9227676391602,
+      "tooltipErrorCssPx": 33.361045837402344,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 0.7,
+      "viewport": {
+        "width": 3429,
+        "height": 929,
+        "devicePixelRatio": 1.0499999523162842
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/6",
+      "targetX": 1857.77685546875,
+      "inputClientX": 1857,
+      "tooltipCenterX": 1830.4167861938477,
+      "tooltipErrorCssPx": 27.360069274902344,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 0.7,
+      "viewport": {
+        "width": 3429,
+        "height": 929,
+        "devicePixelRatio": 1.0499999523162842
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/10",
+      "targetX": 2185.968505859375,
+      "inputClientX": 2185,
+      "tooltipCenterX": 2203.065589904785,
+      "tooltipErrorCssPx": 17.097084045410156,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.25,
+      "viewport": {
+        "width": 1440,
+        "height": 520,
+        "devicePixelRatio": 1.875
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/23",
+      "targetX": 283.0135192871094,
+      "inputClientX": 283,
+      "tooltipCenterX": 309.47501373291016,
+      "tooltipErrorCssPx": 26.46149444580078,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.25,
+      "viewport": {
+        "width": 1440,
+        "height": 520,
+        "devicePixelRatio": 1.875
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "9/26",
+      "targetX": 392.4129638671875,
+      "inputClientX": 392,
+      "tooltipCenterX": 386.8833694458008,
+      "tooltipErrorCssPx": 5.529594421386719,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.25,
+      "viewport": {
+        "width": 1440,
+        "height": 520,
+        "devicePixelRatio": 1.875
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "10/1",
+      "targetX": 583.8619995117188,
+      "inputClientX": 583,
+      "tooltipCenterX": 573.6583633422852,
+      "tooltipErrorCssPx": 10.203636169433594,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.25,
+      "viewport": {
+        "width": 1440,
+        "height": 520,
+        "devicePixelRatio": 1.875
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/9",
+      "targetX": 857.3606567382812,
+      "inputClientX": 857,
+      "tooltipCenterX": 872.4917068481445,
+      "tooltipErrorCssPx": 15.131050109863281,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.25,
+      "viewport": {
+        "width": 1440,
+        "height": 520,
+        "devicePixelRatio": 1.875
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/17",
+      "targetX": 1185.5589599609375,
+      "inputClientX": 1185,
+      "tooltipCenterX": 1171.325080871582,
+      "tooltipErrorCssPx": 14.233879089355469,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.5,
+      "viewport": {
+        "width": 1200,
+        "height": 433,
+        "devicePixelRatio": 2.25
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/21",
+      "targetX": 164.03573608398438,
+      "inputClientX": 164,
+      "tooltipCenterX": 262.59722900390625,
+      "tooltipErrorCssPx": 98.56149291992188,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.5,
+      "viewport": {
+        "width": 1200,
+        "height": 433,
+        "devicePixelRatio": 2.25
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "9/24",
+      "targetX": 273.4352111816406,
+      "inputClientX": 273,
+      "tooltipCenterX": 264.81944274902344,
+      "tooltipErrorCssPx": 8.615768432617188,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.5,
+      "viewport": {
+        "width": 1200,
+        "height": 433,
+        "devicePixelRatio": 2.25
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "9/30",
+      "targetX": 464.88421630859375,
+      "inputClientX": 464,
+      "tooltipCenterX": 448.9861145019531,
+      "tooltipErrorCssPx": 15.898101806640625,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.5,
+      "viewport": {
+        "width": 1200,
+        "height": 433,
+        "devicePixelRatio": 2.25
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/9",
+      "targetX": 738.3828735351562,
+      "inputClientX": 738,
+      "tooltipCenterX": 725.2361450195312,
+      "tooltipErrorCssPx": 13.146728515625,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "before",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.5,
+      "viewport": {
+        "width": 1200,
+        "height": 433,
+        "devicePixelRatio": 2.25
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/20",
+      "targetX": 1066.5811767578125,
+      "inputClientX": 1066,
+      "tooltipCenterX": 993.638916015625,
+      "tooltipErrorCssPx": 51.24997329711914,
+      "inside": true,
+      "pass": false
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 2400,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/19",
+      "targetX": 769.1469116210938,
+      "inputClientX": 769,
+      "tooltipCenterX": 769.25,
+      "tooltipErrorCssPx": 0.10308837890625,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 2400,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "9/23",
+      "targetX": 878.54638671875,
+      "inputClientX": 878,
+      "tooltipCenterX": 878.6666870117188,
+      "tooltipErrorCssPx": 0.12030029296875,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 2400,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "9/30",
+      "targetX": 1069.995361328125,
+      "inputClientX": 1069,
+      "tooltipCenterX": 1070.1354370117188,
+      "tooltipErrorCssPx": 0.14007568359375,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 2400,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/10",
+      "targetX": 1343.4940185546875,
+      "inputClientX": 1343,
+      "tooltipCenterX": 1343.6771240234375,
+      "tooltipErrorCssPx": 0.18310546875,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 2400,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/22",
+      "targetX": 1671.6923828125,
+      "inputClientX": 1671,
+      "tooltipCenterX": 1671.9271240234375,
+      "tooltipErrorCssPx": 0.2347412109375,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1200,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 1200,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/19",
+      "targetX": 169.14683532714844,
+      "inputClientX": 169,
+      "tooltipCenterX": 169.17708587646484,
+      "tooltipErrorCssPx": 0.03025054931640625,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1200,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 1200,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "9/23",
+      "targetX": 278.5462951660156,
+      "inputClientX": 278,
+      "tooltipCenterX": 278.6145935058594,
+      "tooltipErrorCssPx": 0.06829833984375,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1200,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 1200,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "9/30",
+      "targetX": 469.9953308105469,
+      "inputClientX": 469,
+      "tooltipCenterX": 470.1145935058594,
+      "tooltipErrorCssPx": 0.1192626953125,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1200,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 1200,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/10",
+      "targetX": 743.4939575195312,
+      "inputClientX": 743,
+      "tooltipCenterX": 743.6979370117188,
+      "tooltipErrorCssPx": 0.2039794921875,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1200,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 1200,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/22",
+      "targetX": 1071.6922607421875,
+      "inputClientX": 1071,
+      "tooltipCenterX": 1055.6666870117188,
+      "tooltipErrorCssPx": 0.3332710266113281,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 900,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 900,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/19",
+      "targetX": 93.64444732666016,
+      "inputClientX": 93,
+      "tooltipCenterX": 144.66666793823242,
+      "tooltipErrorCssPx": 0,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 900,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 900,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "9/23",
+      "targetX": 184.12796020507812,
+      "inputClientX": 184,
+      "tooltipCenterX": 184.17708587646484,
+      "tooltipErrorCssPx": 0.04912567138671875,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 900,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 900,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "9/30",
+      "targetX": 342.4740905761719,
+      "inputClientX": 342,
+      "tooltipCenterX": 342.59375,
+      "tooltipErrorCssPx": 0.119659423828125,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 900,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 900,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/10",
+      "targetX": 568.682861328125,
+      "inputClientX": 568,
+      "tooltipCenterX": 568.8958435058594,
+      "tooltipErrorCssPx": 0.212982177734375,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 900,
+      "nativeZoom": 1,
+      "viewport": {
+        "width": 900,
+        "height": 650,
+        "devicePixelRatio": 1.5
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/22",
+      "targetX": 840.1333618164062,
+      "inputClientX": 840,
+      "tooltipCenterX": 755.6666870117188,
+      "tooltipErrorCssPx": 0.3333320617675781,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 0.7,
+      "viewport": {
+        "width": 3429,
+        "height": 929,
+        "devicePixelRatio": 1.0499999523162842
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/19",
+      "targetX": 1283.4415283203125,
+      "inputClientX": 1283,
+      "tooltipCenterX": 1283.5417861938477,
+      "tooltipErrorCssPx": 0.10025787353515625,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 0.7,
+      "viewport": {
+        "width": 3429,
+        "height": 929,
+        "devicePixelRatio": 1.0499999523162842
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "9/23",
+      "targetX": 1392.8387451171875,
+      "inputClientX": 1392,
+      "tooltipCenterX": 1392.9614639282227,
+      "tooltipErrorCssPx": 0.12271881103515625,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 0.7,
+      "viewport": {
+        "width": 3429,
+        "height": 929,
+        "devicePixelRatio": 1.0499999523162842
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "9/30",
+      "targetX": 1584.2838134765625,
+      "inputClientX": 1584,
+      "tooltipCenterX": 1584.4197158813477,
+      "tooltipErrorCssPx": 0.13590240478515625,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 0.7,
+      "viewport": {
+        "width": 3429,
+        "height": 929,
+        "devicePixelRatio": 1.0499999523162842
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/10",
+      "targetX": 1857.77685546875,
+      "inputClientX": 1857,
+      "tooltipCenterX": 1857.9316787719727,
+      "tooltipErrorCssPx": 0.15482330322265625,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 2400,
+      "nativeZoom": 0.7,
+      "viewport": {
+        "width": 3429,
+        "height": 929,
+        "devicePixelRatio": 1.0499999523162842
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/22",
+      "targetX": 2185.968505859375,
+      "inputClientX": 2185,
+      "tooltipCenterX": 2186.160804748535,
+      "tooltipErrorCssPx": 0.19229888916015625,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.25,
+      "viewport": {
+        "width": 1440,
+        "height": 520,
+        "devicePixelRatio": 1.875
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/19",
+      "targetX": 283.0135192871094,
+      "inputClientX": 283,
+      "tooltipCenterX": 283.06668853759766,
+      "tooltipErrorCssPx": 0.05316925048828125,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.25,
+      "viewport": {
+        "width": 1440,
+        "height": 520,
+        "devicePixelRatio": 1.875
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "9/23",
+      "targetX": 392.4129638671875,
+      "inputClientX": 392,
+      "tooltipCenterX": 392.4916763305664,
+      "tooltipErrorCssPx": 0.07871246337890625,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.25,
+      "viewport": {
+        "width": 1440,
+        "height": 520,
+        "devicePixelRatio": 1.875
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "9/30",
+      "targetX": 583.8619995117188,
+      "inputClientX": 583,
+      "tooltipCenterX": 583.9917068481445,
+      "tooltipErrorCssPx": 0.12970733642578125,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.25,
+      "viewport": {
+        "width": 1440,
+        "height": 520,
+        "devicePixelRatio": 1.875
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/10",
+      "targetX": 857.3606567382812,
+      "inputClientX": 857,
+      "tooltipCenterX": 857.5583572387695,
+      "tooltipErrorCssPx": 0.19770050048828125,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.25,
+      "viewport": {
+        "width": 1440,
+        "height": 520,
+        "devicePixelRatio": 1.875
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/22",
+      "targetX": 1185.5589599609375,
+      "inputClientX": 1185,
+      "tooltipCenterX": 1185.841682434082,
+      "tooltipErrorCssPx": 0.28272247314453125,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.5,
+      "viewport": {
+        "width": 1200,
+        "height": 433,
+        "devicePixelRatio": 2.25
+      },
+      "index": 0,
+      "expected": "9/19",
+      "actual": "9/19",
+      "targetX": 164.03573608398438,
+      "inputClientX": 164,
+      "tooltipCenterX": 164.03472137451172,
+      "tooltipErrorCssPx": 0.00101470947265625,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.5,
+      "viewport": {
+        "width": 1200,
+        "height": 433,
+        "devicePixelRatio": 2.25
+      },
+      "index": 4,
+      "expected": "9/23",
+      "actual": "9/23",
+      "targetX": 273.4352111816406,
+      "inputClientX": 273,
+      "tooltipCenterX": 273.43055725097656,
+      "tooltipErrorCssPx": 0.0046539306640625,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.5,
+      "viewport": {
+        "width": 1200,
+        "height": 433,
+        "devicePixelRatio": 2.25
+      },
+      "index": 11,
+      "expected": "9/30",
+      "actual": "9/30",
+      "targetX": 464.88421630859375,
+      "inputClientX": 464,
+      "tooltipCenterX": 464.8819580078125,
+      "tooltipErrorCssPx": 0.00225830078125,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.5,
+      "viewport": {
+        "width": 1200,
+        "height": 433,
+        "devicePixelRatio": 2.25
+      },
+      "index": 21,
+      "expected": "10/10",
+      "actual": "10/10",
+      "targetX": 738.3828735351562,
+      "inputClientX": 738,
+      "tooltipCenterX": 738.3819580078125,
+      "tooltipErrorCssPx": 0.00091552734375,
+      "inside": true,
+      "pass": true
+    },
+    {
+      "mode": "after",
+      "nativeWindowWidth": 1800,
+      "nativeZoom": 1.5,
+      "viewport": {
+        "width": 1200,
+        "height": 433,
+        "devicePixelRatio": 2.25
+      },
+      "index": 33,
+      "expected": "10/22",
+      "actual": "10/22",
+      "targetX": 1066.5811767578125,
+      "inputClientX": 1066,
+      "tooltipCenterX": 1044.888916015625,
+      "tooltipErrorCssPx": 0.000026702880859375,
+      "inside": true,
+      "pass": true
+    }
+  ],
+  "extras": [
+    "native window resize keeps focused tooltip aligned without pointer movement",
+    "actual Tab key advances the focused date",
+    "all three metric switches reset and recover the correct tooltip",
+    "single bucket focus",
+    "empty data removes SVG and stale tooltip"
+  ],
+  "pageErrors": [],
+  "runtime": "155.0.4283.62",
+  "tauri": {
+    "present": true,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0"
+  },
+  "summary": {
+    "before": {
+      "pass": 2,
+      "total": 30
+    },
+    "after": {
+      "pass": 30,
+      "total": 30
+    }
+  }
+}
