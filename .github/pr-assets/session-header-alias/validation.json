@@ -1,0 +1,327 @@
+{
+  "sourceBase": "76fbea02ba8ab5a071205a0bfa59ef4db5cc64b4",
+  "fixCommit": "7b3c0d33c4f861326b88e80ee9f452e07065e1b6",
+  "environment": {
+    "os": "Windows 11 x64",
+    "rust": "1.99.1",
+    "testThreads": 1,
+    "nativeTestManifest": "Local test executable only: Microsoft.Windows.Common-Controls 6.0.0.0; no build/source changes",
+    "sidecarBuild": "Skipped unchanged Go sidecar build; shared Go identity kernel exercised through Rust prepare/bind test"
+  },
+  "newRegressionBefore": {
+    "planned": 6,
+    "observedUniqueTestNames": 6,
+    "observedPassedTestNames": 1,
+    "failed": [
+      "modules::codex_native_api::continuity_bridge::tests::legacy_session_header_is_stable_through_shared_go_identity_prepare_and_bind",
+      "modules::codex_native_api::diagnostic_identity_http_tests::legacy_session_header_reuses_scoped_identity_on_real_http_requests",
+      "modules::codex_native_api::identity::tests::legacy_session_header_is_stable_and_stays_caller_and_owner_scoped",
+      "modules::codex_native_api::identity::tests::legacy_session_header_respects_metadata_and_canonical_header_precedence",
+      "modules::codex_native_api::identity::tests::legacy_session_header_validates_only_when_selected_and_keeps_empty_policy"
+    ],
+    "ignored": 0,
+    "finished": true,
+    "summary": {
+      "status": "FAILED",
+      "passed": 1,
+      "failed": 5,
+      "ignored": 0,
+      "filtered": 3912
+    },
+    "lastCompleted": "modules::codex_native_api::identity::tests::legacy_session_header_validates_only_when_selected_and_keeps_empty_policy",
+    "identityRelatedGroups": {
+      "identity::": {
+        "passed": 1,
+        "failed": 3,
+        "ignored": 0
+      },
+      "continuity_bridge::": {
+        "passed": 0,
+        "failed": 1,
+        "ignored": 0
+      },
+      "diagnostic_identity_http_tests::": {
+        "passed": 0,
+        "failed": 1,
+        "ignored": 0
+      }
+    }
+  },
+  "newRegressionAfter": {
+    "planned": 6,
+    "observedUniqueTestNames": 6,
+    "observedPassedTestNames": 6,
+    "failed": [],
+    "ignored": 0,
+    "finished": true,
+    "summary": {
+      "status": "ok",
+      "passed": 6,
+      "failed": 0,
+      "ignored": 0,
+      "filtered": 3912
+    },
+    "lastCompleted": "modules::codex_native_api::identity::tests::legacy_session_header_validates_only_when_selected_and_keeps_empty_policy",
+    "identityRelatedGroups": {
+      "identity::": {
+        "passed": 4,
+        "failed": 0,
+        "ignored": 0
+      },
+      "continuity_bridge::": {
+        "passed": 1,
+        "failed": 0,
+        "ignored": 0
+      },
+      "diagnostic_identity_http_tests::": {
+        "passed": 1,
+        "failed": 0,
+        "ignored": 0
+      }
+    }
+  },
+  "nativeApiModule": {
+    "planned": 953,
+    "observedUniqueTestNames": 953,
+    "observedPassedTestNames": 948,
+    "failed": [
+      "modules::codex_native_api::images::http_tests::image_stream_open_attempts_include_first_attempt_and_have_their_own_budget",
+      "modules::codex_native_api::websocket::retry_tests::quota_gate_tests::websocket_candidate_with_no_upstream_send_has_no_failure_or_attempt_budget",
+      "modules::codex_native_api::websocket::tls_error_tests::websocket_handshake_connection_failure_keeps_code_and_context"
+    ],
+    "ignored": 2,
+    "finished": true,
+    "summary": {
+      "status": "FAILED",
+      "passed": 948,
+      "failed": 3,
+      "ignored": 2,
+      "filtered": 2965
+    },
+    "lastCompleted": "modules::codex_native_api::websocket::unsent_dispatch_tests::reused_socket_send_does_not_poll_after_stop_or_deadline",
+    "identityRelatedGroups": {
+      "identity::": {
+        "passed": 100,
+        "failed": 0,
+        "ignored": 0
+      },
+      "continuity_bridge::": {
+        "passed": 30,
+        "failed": 0,
+        "ignored": 0
+      },
+      "diagnostic_identity_http_tests::": {
+        "passed": 11,
+        "failed": 0,
+        "ignored": 0
+      }
+    }
+  },
+  "isolatedNativeFailureComparison": [
+    {
+      "label": "baseline",
+      "name": "modules::codex_native_api::images::http_tests::image_stream_open_attempts_include_first_attempt_and_have_their_own_budget",
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "summary": "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 3917 filtered out; finished in 0.29s"
+    },
+    {
+      "label": "baseline",
+      "name": "modules::codex_native_api::websocket::retry_tests::quota_gate_tests::websocket_candidate_with_no_upstream_send_has_no_failure_or_attempt_budget",
+      "exitCode": 101,
+      "signal": null,
+      "error": null,
+      "summary": "test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 3917 filtered out; finished in 2.09s"
+    },
+    {
+      "label": "baseline",
+      "name": "modules::codex_native_api::websocket::tls_error_tests::websocket_handshake_connection_failure_keeps_code_and_context",
+      "exitCode": 101,
+      "signal": null,
+      "error": null,
+      "summary": "test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 3917 filtered out; finished in 2.01s"
+    },
+    {
+      "label": "fix",
+      "name": "modules::codex_native_api::images::http_tests::image_stream_open_attempts_include_first_attempt_and_have_their_own_budget",
+      "exitCode": 0,
+      "signal": null,
+      "error": null,
+      "summary": "test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 3917 filtered out; finished in 0.31s"
+    },
+    {
+      "label": "fix",
+      "name": "modules::codex_native_api::websocket::retry_tests::quota_gate_tests::websocket_candidate_with_no_upstream_send_has_no_failure_or_attempt_budget",
+      "exitCode": 101,
+      "signal": null,
+      "error": null,
+      "summary": "test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 3917 filtered out; finished in 2.12s"
+    },
+    {
+      "label": "fix",
+      "name": "modules::codex_native_api::websocket::tls_error_tests::websocket_handshake_connection_failure_keeps_code_and_context",
+      "exitCode": 101,
+      "signal": null,
+      "error": null,
+      "summary": "test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 3917 filtered out; finished in 2.01s"
+    }
+  ],
+  "fullRustAttempt": {
+    "planned": 3918,
+    "observedUniqueTestNames": 1639,
+    "observedPassedTestNames": 1589,
+    "failed": [
+      "commands::codex::codex_quota_future_tests::quota_refresh_keeps_early_boxing_boundaries_and_async_commands",
+      "commands::codex::codex_quota_future_tests::windows_stack_reserve_is_target_based_and_scoped_to_app_binary",
+      "commands::codex_instance::tests::mixed_routing_update_restores_instance_store_when_speed_write_fails",
+      "commands::provider_current::tests::provider_current_command_rejects_unknown_platform",
+      "commands::provider_current::tests::provider_current_command_supports_all_account_pages",
+      "modules::backup_storage::tests::initial_directory_recovery_and_later_changes_use_the_same_persistent_location",
+      "modules::chatgpt_plan::binding::tests::concurrent_bindings_cannot_assign_one_source_or_one_grant_twice",
+      "modules::chatgpt_plan::lifecycle_tests::authorization_lifecycle_tests::service_members::authorization_switch_cas_does_not_readd_a_concurrently_removed_member",
+      "modules::chatgpt_plan::lifecycle_tests::mock_bound_service_mode_transaction_and_cancel_keep_credentials_and_scopes_separate",
+      "modules::chatgpt_plan::lifecycle_tests::mock_oauth_refresh_inference_disconnect_and_cancellation",
+      "modules::chatgpt_plan::storage::tests::file_lock_excludes_parallel_refresh_and_releases_on_drop",
+      "modules::chatgpt_plan::storage::tests::registration_lock_coordinates_independent_processes",
+      "modules::claude_account::cli_sync_tests::oauth_result_merges_user_edits_and_rejects_reauthorization_or_deleted_accounts",
+      "modules::codex_account::tests::api_key_upsert_without_sync_preference_preserves_instance_model_catalog",
+      "modules::codex_account::tests::load_account_clears_bound_oauth_local_gateway_flag",
+      "modules::codex_account::tests::load_account_keeps_bound_oauth_account_id_when_gateway_false",
+      "modules::codex_app_injection::output_speed::tests::output_speed_binding_is_semantic_and_invalidates_keys_or_database_replacement",
+      "modules::codex_app_injection::output_speed::tests::output_speed_locked_database_has_verified_binding_but_non_sqlite_failures_do_not",
+      "modules::codex_app_injection::output_speed::tests::output_speed_profile_resolution_accepts_optional_installation_but_requires_instance",
+      "modules::codex_instance::profile_copy_integration_tests::codex_profile_copy_cancelled_worker_never_registers_and_releases_reservation",
+      "modules::codex_instance::profile_copy_integration_tests::codex_profile_copy_create_instance_preserves_folderless_project",
+      "modules::codex_instance::profile_copy_integration_tests::codex_profile_copy_slow_copy_keeps_registry_available_and_concurrent_creates",
+      "modules::codex_local_access::direct_identity_tests::direct_wakeup_and_pelican_use_the_account_store_and_separate_connection_pools",
+      "modules::codex_local_access::native_host_tests::parity22_model_catalog_websocket_flags_match_go_configuration",
+      "modules::codex_local_access::native_host_tests::parity22_token_estimate_http_matches_go_alias_preprocessing_without_generation",
+      "modules::codex_local_access::native_image_policy_tests::native_image_alias_routing_preserves_pool_disabled_sources_keys_and_pinning",
+      "modules::codex_local_access::native_image_policy_tests::native_image_bare_alias_http_generation_edit_and_responses_send_configured_model",
+      "modules::codex_local_access::native_image_policy_tests::parity22_image_conversation_fallback_keeps_model_permissions_and_pool",
+      "modules::codex_local_access::native_image_policy_tests::parity22_image_outbound_models_match_go_relay",
+      "modules::codex_local_access::native_transport_identity_tests::native_environment_proxy_honors_lowercase_no_proxy",
+      "modules::codex_local_access::native_transport_identity_tests::native_environment_proxy_honors_no_proxy_and_updates_cached_clients",
+      "modules::codex_local_access::native_transport_identity_tests::native_explicit_service_proxy_is_not_bypassed_by_environment",
+      "modules::codex_local_access::native_transport_identity_tests::native_proxy_cold_start_explicit_direct_and_api_keys_skip_shared_storage",
+      "modules::codex_local_access::native_transport_identity_tests::native_proxy_cold_start_independent_binding_creates_missing_entry",
+      "modules::codex_local_access::native_transport_identity_tests::native_proxy_cold_start_loads_saved_disabled_state_before_service_proxy",
+      "modules::codex_local_access::native_transport_identity_tests::native_proxy_cold_start_missing_store_accepts_concurrent_first_requests",
+      "modules::codex_local_access::native_transport_identity_tests::native_proxy_cold_start_storage_failure_blocks_fallback_and_can_retry",
+      "modules::codex_local_access::pelican_provider_transport_tests::pelican_provider_cancel_closes_stream_and_removes_temporary_gateway",
+      "modules::codex_local_access::pelican_provider_transport_tests::pelican_provider_protocols_stream_and_clean_up_without_enrolling_accounts",
+      "modules::codex_local_access::tests::grok_auth_sync_retries_lock_contention_and_reads_latest_credentials",
+      "modules::codex_local_access::tests::grok_auth_sync_retry_revokes_a_source_deleted_during_backoff",
+      "modules::codex_local_access::tests::grok_delete_revokes_global_and_instance_auth_before_returning",
+      "modules::codex_local_access::tests::grok_missing_source_is_isolated_and_stale_auth_is_removed",
+      "modules::codex_local_access::tests::grok_revocation_reports_auth_cleanup_failures",
+      "modules::codex_local_access::tests::passive_takeover_restores_owned_oauth_without_replaying_old_refresh_tokens"
+    ],
+    "ignored": 5,
+    "finished": false,
+    "summary": null,
+    "lastCompleted": "modules::codex_local_access::tests::request_diagnostics_poll_tests::request_diagnostics_pull_body_capture_off_still_preserves_attempts_and_first_response",
+    "identityRelatedGroups": {
+      "identity::": {
+        "passed": 0,
+        "failed": 0,
+        "ignored": 0
+      },
+      "continuity_bridge::": {
+        "passed": 0,
+        "failed": 0,
+        "ignored": 0
+      },
+      "diagnostic_identity_http_tests::": {
+        "passed": 0,
+        "failed": 0,
+        "ignored": 0
+      }
+    }
+  },
+  "baselineRustAttempt": {
+    "planned": 3912,
+    "observedUniqueTestNames": 1639,
+    "observedPassedTestNames": 1589,
+    "failed": [
+      "commands::codex::codex_quota_future_tests::quota_refresh_keeps_early_boxing_boundaries_and_async_commands",
+      "commands::codex::codex_quota_future_tests::windows_stack_reserve_is_target_based_and_scoped_to_app_binary",
+      "commands::codex_instance::tests::mixed_routing_update_restores_instance_store_when_speed_write_fails",
+      "commands::provider_current::tests::provider_current_command_rejects_unknown_platform",
+      "commands::provider_current::tests::provider_current_command_supports_all_account_pages",
+      "modules::backup_storage::tests::initial_directory_recovery_and_later_changes_use_the_same_persistent_location",
+      "modules::chatgpt_plan::binding::tests::concurrent_bindings_cannot_assign_one_source_or_one_grant_twice",
+      "modules::chatgpt_plan::lifecycle_tests::authorization_lifecycle_tests::service_members::authorization_switch_cas_does_not_readd_a_concurrently_removed_member",
+      "modules::chatgpt_plan::lifecycle_tests::mock_bound_service_mode_transaction_and_cancel_keep_credentials_and_scopes_separate",
+      "modules::chatgpt_plan::lifecycle_tests::mock_oauth_refresh_inference_disconnect_and_cancellation",
+      "modules::chatgpt_plan::storage::tests::file_lock_excludes_parallel_refresh_and_releases_on_drop",
+      "modules::chatgpt_plan::storage::tests::registration_lock_coordinates_independent_processes",
+      "modules::claude_account::cli_sync_tests::oauth_result_merges_user_edits_and_rejects_reauthorization_or_deleted_accounts",
+      "modules::codex_account::tests::api_key_upsert_without_sync_preference_preserves_instance_model_catalog",
+      "modules::codex_account::tests::load_account_clears_bound_oauth_local_gateway_flag",
+      "modules::codex_account::tests::load_account_keeps_bound_oauth_account_id_when_gateway_false",
+      "modules::codex_app_injection::output_speed::tests::output_speed_binding_is_semantic_and_invalidates_keys_or_database_replacement",
+      "modules::codex_app_injection::output_speed::tests::output_speed_locked_database_has_verified_binding_but_non_sqlite_failures_do_not",
+      "modules::codex_app_injection::output_speed::tests::output_speed_profile_resolution_accepts_optional_installation_but_requires_instance",
+      "modules::codex_instance::profile_copy_integration_tests::codex_profile_copy_cancelled_worker_never_registers_and_releases_reservation",
+      "modules::codex_instance::profile_copy_integration_tests::codex_profile_copy_create_instance_preserves_folderless_project",
+      "modules::codex_instance::profile_copy_integration_tests::codex_profile_copy_slow_copy_keeps_registry_available_and_concurrent_creates",
+      "modules::codex_local_access::direct_identity_tests::direct_wakeup_and_pelican_use_the_account_store_and_separate_connection_pools",
+      "modules::codex_local_access::native_host_tests::parity22_model_catalog_websocket_flags_match_go_configuration",
+      "modules::codex_local_access::native_host_tests::parity22_token_estimate_http_matches_go_alias_preprocessing_without_generation",
+      "modules::codex_local_access::native_image_policy_tests::native_image_alias_routing_preserves_pool_disabled_sources_keys_and_pinning",
+      "modules::codex_local_access::native_image_policy_tests::native_image_bare_alias_http_generation_edit_and_responses_send_configured_model",
+      "modules::codex_local_access::native_image_policy_tests::parity22_image_conversation_fallback_keeps_model_permissions_and_pool",
+      "modules::codex_local_access::native_image_policy_tests::parity22_image_outbound_models_match_go_relay",
+      "modules::codex_local_access::native_transport_identity_tests::native_environment_proxy_honors_lowercase_no_proxy",
+      "modules::codex_local_access::native_transport_identity_tests::native_environment_proxy_honors_no_proxy_and_updates_cached_clients",
+      "modules::codex_local_access::native_transport_identity_tests::native_explicit_service_proxy_is_not_bypassed_by_environment",
+      "modules::codex_local_access::native_transport_identity_tests::native_proxy_cold_start_explicit_direct_and_api_keys_skip_shared_storage",
+      "modules::codex_local_access::native_transport_identity_tests::native_proxy_cold_start_independent_binding_creates_missing_entry",
+      "modules::codex_local_access::native_transport_identity_tests::native_proxy_cold_start_loads_saved_disabled_state_before_service_proxy",
+      "modules::codex_local_access::native_transport_identity_tests::native_proxy_cold_start_missing_store_accepts_concurrent_first_requests",
+      "modules::codex_local_access::native_transport_identity_tests::native_proxy_cold_start_storage_failure_blocks_fallback_and_can_retry",
+      "modules::codex_local_access::pelican_provider_transport_tests::pelican_provider_cancel_closes_stream_and_removes_temporary_gateway",
+      "modules::codex_local_access::pelican_provider_transport_tests::pelican_provider_protocols_stream_and_clean_up_without_enrolling_accounts",
+      "modules::codex_local_access::tests::grok_auth_sync_retries_lock_contention_and_reads_latest_credentials",
+      "modules::codex_local_access::tests::grok_auth_sync_retry_revokes_a_source_deleted_during_backoff",
+      "modules::codex_local_access::tests::grok_delete_revokes_global_and_instance_auth_before_returning",
+      "modules::codex_local_access::tests::grok_missing_source_is_isolated_and_stale_auth_is_removed",
+      "modules::codex_local_access::tests::grok_revocation_reports_auth_cleanup_failures",
+      "modules::codex_local_access::tests::passive_takeover_restores_owned_oauth_without_replaying_old_refresh_tokens"
+    ],
+    "ignored": 5,
+    "finished": false,
+    "summary": null,
+    "lastCompleted": "modules::codex_local_access::tests::request_diagnostics_poll_tests::request_diagnostics_pull_body_capture_off_still_preserves_attempts_and_first_response",
+    "identityRelatedGroups": {
+      "identity::": {
+        "passed": 0,
+        "failed": 0,
+        "ignored": 0
+      },
+      "continuity_bridge::": {
+        "passed": 0,
+        "failed": 0,
+        "ignored": 0
+      },
+      "diagnostic_identity_http_tests::": {
+        "passed": 0,
+        "failed": 0,
+        "ignored": 0
+      }
+    }
+  },
+  "fullFailureNamesNotYetSeenInBaseline": [],
+  "baselineFailureNamesNotSeenInFix": [],
+  "hang": {
+    "test": "modules::codex_local_access::tests::request_diagnostics_poll_tests::request_diagnostics_pull_bounds_total_body_time_and_cancels_closed_endpoint",
+    "baselineIsolatedAttempt": "Unmodified baseline executable stalled for more than 90 seconds and was interrupted. Full-suite runs are incomplete; do not report a full-suite pass."
+  },
+  "limits": [
+    "Synthetic local fixtures only; no Pi SDK or live provider/cache-hit acceptance.",
+    "An interrupted full suite cannot establish the status of unrun cases.",
+    "Native API module is not fully green: three failures. Two WebSocket failures reproduced in baseline and fix; the image timeout test passed in isolated baseline and fix runs, so its full-module failure remains timing-sensitive and unattributed."
+  ]
+}
