@@ -180,10 +180,10 @@ async fn pelican_provider_cancel_closes_stream_and_removes_temporary_gateway() {
         let mut remaining = Vec::new();
         let closed = timeout(Duration::from_secs(10), stream.read_to_end(&mut remaining))
             .await
-            .expect("cancelled stream must close before the deadline");
+            .expect("cancellation must close the upstream connection");
         if let Err(error) = closed {
-            // Cancelling an in-flight HTTP response can close TCP with either
-            // EOF or a reset. Other read errors must still fail this fixture.
+            // Cancellation may abort the socket with unread bytes rather than
+            // perform an orderly FIN. Both prove that the upstream was closed.
             assert_eq!(error.kind(), std::io::ErrorKind::ConnectionReset);
         }
     });
